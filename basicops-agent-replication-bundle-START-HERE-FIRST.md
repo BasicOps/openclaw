@@ -1,7 +1,7 @@
-# Unpack First
+# BasicOps Agent Bundle, Start Here First
 
 This note is meant to live **outside** the archive.
-Read it before unpacking `basicops-agent-replication-bundle.tar.gz`.
+It exists so you can see the first step **before** unpacking `basicops-agent-replication-bundle.tar.gz`.
 
 ## What you should have
 
@@ -10,7 +10,7 @@ You will usually use one of these two paths:
 1. clone this public repository on the target machine
 2. or manually copy these two files to the target machine:
    - `basicops-agent-replication-bundle.tar.gz`
-   - `UNPACK-FIRST.md`
+   - `basicops-agent-replication-bundle-START-HERE-FIRST.md`
 
 ## Recommended path for most people
 

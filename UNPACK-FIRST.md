@@ -3,6 +3,19 @@
 This note is meant to live **outside** the archive.
 Read it before unpacking `basicops-agent-replication-bundle.tar.gz`.
 
+## Before you unpack anything
+
+Make sure you already created the BasicOps agent user and API key you plan to use.
+You will need that API key during setup.
+
+If you have not done that yet in BasicOps:
+
+1. open **Settings**
+2. open **Users** and then the **Agents** tab
+3. click **Add Agent**
+4. create the agent you want to use
+5. create an API key for it and copy that key somewhere safe
+
 ## What you should have
 
 You will usually use one of these two paths:
@@ -47,6 +60,7 @@ For most users, the next file to follow is:
 - `~/basicops-agent-bundle/INSTALL-WITH-OPENCLAW.md`
 
 That path is intentionally the shortest and most novice-friendly one.
+It assumes you already have the BasicOps agent API key ready.
 
 ## If OpenClaw is not installed yet
 

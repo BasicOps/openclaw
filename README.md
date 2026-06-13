@@ -38,9 +38,17 @@ Use this path if the target machine already has OpenClaw installed and working.
 ```bash
 git clone https://github.com/BasicOps/openclaw.git
 cd openclaw
-mkdir -p ~/basicops-agent-bundle
-tar -xzf basicops-agent-replication-bundle.tar.gz -C ~/basicops-agent-bundle --strip-components=1
-cd ~/basicops-agent-bundle
+
+BUNDLE_DIR=~/basicops-agent-bundle
+if [ -d "$BUNDLE_DIR" ] && [ -n "$(ls -A "$BUNDLE_DIR" 2>/dev/null)" ]; then
+  echo "Directory already exists and is not empty: $BUNDLE_DIR"
+  echo "Please remove it or choose a different bundle directory."
+  exit 1
+fi
+
+mkdir -p "$BUNDLE_DIR"
+tar -xzf basicops-agent-replication-bundle.tar.gz -C "$BUNDLE_DIR" --strip-components=1
+cd "$BUNDLE_DIR"
 ls
 ```
 

@@ -18,7 +18,7 @@ In BasicOps, you need to add an agent and create an API key for it:
 
 1. Select **Settings** in the left sidebar.
 2. Select **Users**, then click the **Agents** tab.
-3. Click Add Agent, click the **Add an agent manually** panel, enter the name you want to use, then click **Add Agent**.
+3. Click **Add Agent**, click the **Add an agent manually** panel, enter the name you want to use, then click **Add Agent**.
 4. A dialog titled **Add API Key** will appear. Enter a name for the key, for example the agent's name, then click **Add API Key**.
 5. The agent's API key is shown in the next dialog. Copy it and store it somewhere safe, you will need it during setup.
 
